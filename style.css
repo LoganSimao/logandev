@@ -1,0 +1,43 @@
+/* a minimalist set of CSS resets */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap');
+
+/* default to border-box */
+
+:root{
+  --font: 'Poppins', sans-serif;
+  --green: #4AF67B;
+  --black: #060606;
+  --white: #F1F1F1;
+  --offwhite: #B9B9B9;
+  --purple: #A259FF;
+  --darkgrey: #151515;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: var(--font);
+  line-height: 1.5;
+
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
