@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="fv/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fv/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fv/favicon-16x16.png">
+    <link rel="manifest" href="fv/site.webmanifest">
     <title>Logan Dev - Website development</title>
 
     <!-- import the webpage's stylesheet -->
@@ -14,12 +16,14 @@
     <script src="/script.js" defer></script>
   </head>
   <body>
+    <div class="container">
     <header>
       <nav>
         <ul class="r-menu">
-          <li>Logan<span>Dev</span></li>
+          <li>Logan<span class="logo">Dev</span></li>
         </ul>
-        <ul class="l-menu">
+        <img src="img/burguerburguer.svg" alt="menu hamburguer" class="hide-desktop" id="burguer">
+        <ul class="l-menu-desk l-menu-mobile">
           <li>Home</li>
           <li>Work</li>
           <li>About</li>
@@ -27,5 +31,128 @@
         </ul>
       </nav>
     </header>
+    <section id="one">
+      <h2>Ui/ux design & front end developer</h2>
+      <h1>Designing & coding modern websites</h1>
+      <a href="#">See work</a>
+      <img src="img/Group 1ladrinhos-desk.svg">
+    </section>
+    <section id="2">
+      <span>Projetos</span>
+      <h1>Showcase</h1>
+      <h2>
+        Here are some samples of my work, all designed and coded by me
+      </h2>
+      <div>
+        <div>
+          <!-- this div bellow should be changed for an image in the future -->
+          <div>
+            <!--img here and taking the div down-->
+          </div>
+          <h3>Project name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus 
+          </p>
+        </div>
+                <div>
+          <!-- this div bellow should be changed for an image in the future -->
+          <div>
+            <!--img here and taking the div down-->
+          </div>
+          <h3>Project name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus 
+          </p>
+        </div>
+                <div>
+          <!-- this div bellow should be changed for an image in the future -->
+          <div>
+            <!--img here and taking the div down-->
+          </div>
+          <h3>Project name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus 
+          </p>
+        </div>
+                <div>
+          <!-- this div bellow should be changed for an image in the future -->
+          <div>
+            <!--img here and taking the div down-->
+          </div>
+          <h3>Project name</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus 
+          </p>
+        </div>
+        <!--arrows for buttons -->
+        <div>
+          <img src="img/arrow left desk.svg">
+          <img src="img/arrow right desk.svg">
+        </div>
+      </div>
+      <img src="img/bullets-desk.svg">
+    </section>
+    <section id="3">
+      <span>Skills</span>
+      <h1>Skills</h1>
+      <h2>The tecnologies that i use to make my websites is HTML5, CSS3, JavaScript, Figma and Photoshop.</h2>
+      <div>
+        <div>
+          <img src="img/bi_layers-filllayers.svg">
+        </div>
+        <div>
+          <h3>Figma & Photoshop</h3>
+          <p>I will make the design for your website, mostly using  Figma but sometimes I will retouch some pictures to work better on the design with photoshop</p>
+        </div>
+        <div>
+          <h3>HTML5, CSS3 & JavaScript</h3>
+          <p>
+            After everything is done with the design, i will have to code the website and bring it to life. and i will do so with these 3 programming languages.
+          </p>
+        </div>
+        <div>
+          <img src="img/arrow white.svg">
+        </div>
+      </div>
+    </section>
+    <section id="4">
+      <span>About</span>
+      <h1>About</h1>
+      <h2>Just a little bit about me and my goals.</h2>
+      <p>Hi, my name is Logan, and I am here to make your life easier and not talk about technical stuffs (unless you want to).</p>
+      <p>
+        I’m from Brazil but don’t worry about our communication. I can speak English just fine. My goal here is to help you with your website without too much crazy stuff going on, just a simple and clean design that is very easy to go through.
+      </p>
+      <p>
+        I like to code and design I have a lot of fun doing it and also i love to help people, so i’m not just try to delivery something very fast to earn money, i hope that i can understand your needs and aply then to make a  nice design.
+      </p>
+      <p>
+        Well, my work will be providing you with a designed and coded website that doesn’t include hosting etc. but if you do not know how this kind of stuff works, 
+        I will be more than happy to guide you. If you want to know something else just message me.
+      </p>
+      <div>
+        <a href="#">Message me</a>
+      </div>
+        <div>
+          <a href="#"><img src="img/arrow black.svg"></a>
+        </div>
+    </section>
+    <section id="5">
+      <h1>Faq</h1>
+      <h2>I have to reach you on (name here)?</h2>
+      <p>
+        Yes, currently i’m only working inside the platform (name here).
+      </p>
+      <h2>Why (name here)?</h2>
+      <p>
+        Usually this kind of work demands some bureaucracy like a contract to assure both parts are going to be safe about fraud, but with (name here) we don’t need to worry about this, the platform is going to take care of it for us and we can just discuss the work and move on faster. don’t worry signing up is free.
+      </p>
+      <h2>Want to work with me?</h2>
+      <div>
+        <a href="#">Yes</a>
+      </div>
+    </section>
+      <footer><Span>© LoganDev 2021</Span></footer>
+  </div>
   </body>
 </html>
